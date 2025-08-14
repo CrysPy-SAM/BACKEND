@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "practice for backend working",
+  "keywords": [
+    "nde"
+  ],
+  "license": "ISC",
+  "author": "satyam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js "
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
