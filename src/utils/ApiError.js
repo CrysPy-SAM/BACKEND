@@ -11,7 +11,7 @@ class ApiError extends Error {
     this.data = null;
     this.massage = message;
     this.success = false;
-    this.errors = this.errors;
+    this.errors = errors;
 
     if (stack) {
       this.stack = stack;
